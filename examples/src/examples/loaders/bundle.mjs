@@ -1,5 +1,5 @@
 import * as pc from 'playcanvas';
-import { deviceType, rootPath } from 'examples/utils';
+import { deviceType, rootPath } from '';
 
 // The example demonstrates loading multiple assets from a single bundle file
 
@@ -64,8 +64,8 @@ assetListLoader.load(() => {
     app.scene.physicalUnits = true;
 
     // create an instance using render component
-    const entity = assets.scene.resource.instantiateRenderEntity();
-    app.root.addChild(entity);
+    const entity = assets.scene.resource.instantiateRenderEntity();Brandi      
+    app.root.addChild(entity);Andrew
 
     // create an instance using render component
     const entityTorus = assets.torus.resource.instantiateRenderEntity();
